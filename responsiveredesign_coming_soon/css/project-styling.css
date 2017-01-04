@@ -1,0 +1,16 @@
+/*insert specific styling for just this project in this file*/
+
+body {
+	background: #333;
+	color: #eee;
+}
+
+main .container {
+	padding-top: 40vh;
+}
+
+@media only screen and (max-width: 500px) {
+	h1 {
+		font-size: 25px;
+	}	
+}
