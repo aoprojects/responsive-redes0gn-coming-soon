@@ -550,15 +550,16 @@ ul.p-list li a{
 	text-decoration:none;
 }
 ul.p-list li.act {
-	color:#f68236;
+	color:red;
 	font-size:0.8em;
 	text-transform:uppercase;
 	font-weight:400;
 	text-decoration:none;
 }
 ul.p-list li a:hover{
-	color:#f68236;
-	transition:0.5s all;
+	color:red;
+	font-weight: 600px;
+	transition:0.3s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-ms-transition:0.5s all;
@@ -569,9 +570,9 @@ ul.p-list li a:hover{
 	text-align:center;
 }
 h3.c-head{
-	font-size:2em;
+	font-size:26px;
 	text-transform:uppercase;
-	color: #303030;
+	color: #6D1419;
 	font-weight:600;
 	margin:0;
 }
