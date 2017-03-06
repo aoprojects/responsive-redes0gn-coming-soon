@@ -249,10 +249,8 @@ i.twit-icon{
 .t-wit p{
 	font-size: 1.em;
 	font-family: Georgia;
-	margin: 0.5em 0;
+	margin: 0;
 	color: #fff;
-
-
 	font-size: 51.em;
 	font-size: 1.5em;
 }
@@ -1116,7 +1114,7 @@ ul.size-list li a:hover{
 		font-size: 4em;
 	}
 	.t-wit {
-		padding: 1em 1em 1em;
+		padding: 0;
 		min-height: 219px;
 	}
 	.img-caption {
@@ -1188,7 +1186,7 @@ ul.size-list li a:hover{
 		display: none;
 	}
 	.t-wit {
-		padding: 2.5em 0.5em 0; 
+		padding: 0; 
 		min-height: 164px;
 	}
 	.g1-r2 {
@@ -1268,7 +1266,7 @@ ul.size-list li a:hover{
 		min-height: 230px;
 	}
 	.t-wit {
-		padding: 2em 0.5em 0;
+		padding: 0;
 		min-height: 127px;
 	}
 	.g1-r2 {
@@ -1361,7 +1359,7 @@ ul.size-list li a:hover{
 		margin-bottom:10px;
 	}
 	.t-wit {
-		padding: 2em 0.5em 0;
+		padding: 0;
 		min-height: 175px;
 	}
 	.t-hat {
@@ -1402,7 +1400,7 @@ ul.size-list li a:hover{
 		padding: 0 0em 1em;
 	}
 	.t-wit {
-		padding: 2em 0.5em 0;
+		padding: 0;
 		min-height: 127px;
 	}
 	.img-caption p {
