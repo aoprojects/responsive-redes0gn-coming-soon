@@ -1,4 +1,8 @@
 
+.centered-cols {
+	margin: 0 auto;
+}
+
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -606,6 +610,13 @@ h3.c-head{
 .coat-column1{
 	width:22%;
 	float:right;
+	position:relative;
+}
+.coat-column3{
+	width:22%;
+	float:left;
+	margin-right:5%;
+	margin-left: 5%;
 	position:relative;
 }
 .prod-desc{
