@@ -248,7 +248,7 @@ i.twit-icon{
 }
 .t-wit p{
 	font-size: 1.em;
-	font-family: Georgia;
+	font-family: Arial;
 	margin: 0;
 	color: #fff;
 	font-size: 51.em;
@@ -465,16 +465,21 @@ ul.ft-list li a{
 	color:#303030;
 	font-weight:400;
 }
+ul.ft-list li a:hover {
+	color: red;
+	text-decoration: none;
+}
 ul.list-h li a{
 	text-decoration:none;
 }
 ul.list-h li a:hover{
-	color:#f68236;
+	color:red;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-ms-transition:0.5s all;
 	-o-transition:0.5s all;
+	text-decoration: none;
 }
 .foot-cl p{
 	font-size:0.85em;
