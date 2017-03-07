@@ -1,7 +1,21 @@
 
+/*New classes added by Virgo Ventures LLC*/
 .centered-cols {
 	margin: 0 auto;
 }
+.iframe-video-size {
+	height: 50vw;
+	width: 70vw;
+	max-height: 480px;
+	max-width: 853px;
+	margin: 0 auto;
+	text-align: center;
+}
+.iframe-div {
+	margin: 0 auto;
+	padding: 20px;
+}
+/*end classes added by Virgo Ventures LLC*/
 
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
