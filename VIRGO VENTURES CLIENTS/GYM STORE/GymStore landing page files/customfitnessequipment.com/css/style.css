@@ -607,11 +607,15 @@ h3.c-head{
 	padding:3em 0 2em;
 }
 .coat-column{
-	width:22%;
+	width:24%;
 	height: ;
 	float:left;
 	margin-right:0%;
 	position:relative;
+	padding-bottom: 20px;
+}
+.coat-column img {
+	width: 100%;
 }
 .coat-column1{
 	width:22%;
