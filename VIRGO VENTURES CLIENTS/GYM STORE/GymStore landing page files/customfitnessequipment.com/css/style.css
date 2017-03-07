@@ -887,11 +887,28 @@ ul.tab_list li a:hover {
 	color: #606060;
 	margin-bottom:0.5em;
 }
+.form div {
+	margin-top: 10px;
+}
+.text {
+	margin: 10px;
+}
 .text select {
 	width: 100%;
-	padding: 10px;
+	padding: 20px;
 	outline:none;
-	border:1px solid #f68236;
+	/*border:1px solid #f68236;*/
+	border: 1px solid red; /* red */
+	height: 40px;
+	border-radius: 0px !important;
+	background: white;
+}
+.text select {
+	border-radius: 0px;
+}
+.text select:active {
+	border: 2px solid red; /* test */
+	box-shadow: 0 0 2px red;
 }
 .form {
 	margin: 0em 0 2em;
@@ -911,7 +928,7 @@ ul.tab_list li a:hover {
 	padding:10px;
 	outline:none;
 	-webkit-appearance:none;
-	border:1px solid #f68236;
+	border:1px solid red;
 }
 .text textarea{
 	width:100%;
@@ -919,7 +936,8 @@ ul.tab_list li a:hover {
 	height:200px;
 	padding:10px;
 	outline:none;
-	border:1px solid #f68236;
+	border: 1px solid red;
+	/*border:1px solid #f68236;*/
 }
 .text{
 	margin-top:0.5em;
@@ -944,6 +962,9 @@ ul.tab_list li a:hover {
 	-moz-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+.text input:active, .text input:focus, .text textarea:active, .text textarea:focus  {
+	box-shadow: 0 0 2px red;
+}/* create shadowy highlight effect while curser is in box */
 .text a:hover{
 	color:#f68236;
 	-webkit-transition:0.5s all;
