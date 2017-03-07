@@ -1,5 +1,11 @@
 
 /*New classes added by Virgo Ventures LLC*/
+a[href="#top"] {
+	text-align: right !important;
+	float: right;
+	font-size: 14px;
+	color: #bdbdbd;
+}
 .centered-cols {
 	margin: 0 auto;
 }
