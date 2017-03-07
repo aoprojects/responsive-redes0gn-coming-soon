@@ -944,23 +944,24 @@ ul.tab_list li a:hover {
 	text-align:center;
 }
 .text input[type="submit"]{
-	font-size:0.8em;
-	color:#fff;
+	font-size:16px;
+	color:#6D1419;
 	border:0px;
-	background:#f68236;
+	background: white;
 	padding:15px 30px;
 	text-align:center;
-	outline:none;
+	outline:1px solid red;
 	text-transform:uppercase;
 	-webkit-appearance: none;
 	cursor: pointer;
 }
 .text input[type="submit"]:hover,.reg a:hover{
-	background:#606060;
-	-webkit-transition:0.5s all;
-	-o-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-ms-transition:0.5s all;
+	background:#6D1419;
+	color: white;
+	-webkit-transition:0.2s all;
+	-o-transition:0.2s all;
+	-moz-transition:0.2s all;
+	-ms-transition:0.2s all;
 }
 .text input:active, .text input:focus, .text textarea:active, .text textarea:focus  {
 	box-shadow: 0 0 2px red;
