@@ -9,9 +9,16 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 body{
 	font-family: 'Lato', sans-serif;
-	font-size:100%;
+	font-size:100%; 
 }
 /*--- Header Part Starts Here --*/
+h4 {
+	text-align: center !important;
+}
+.row .col-* img.img-responsive {
+	margin: 0 auto !important;
+	text-align: center;
+}
 .header{
 	margin-top:2em;
 }
@@ -595,6 +602,8 @@ h3.c-head{
 	color: #6D1419;
 	font-weight:300;
 	margin-bottom:35px;
+	margin-top: 35px;
+	text-align: center;
 }
 .coats small a{
 	font-size:1em;
