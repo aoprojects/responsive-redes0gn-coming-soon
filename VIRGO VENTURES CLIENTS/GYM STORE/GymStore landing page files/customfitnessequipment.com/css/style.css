@@ -786,9 +786,9 @@ p.article{
 	color: #f68236;
 }
 .resp-tab-active{
-	background:#ee4a02;
+	background: #ddd;
 	text-shadow: none;
-	color:#fff;
+	color:black;
 }
 .resp-tabs-container {
 	padding: 0px;
