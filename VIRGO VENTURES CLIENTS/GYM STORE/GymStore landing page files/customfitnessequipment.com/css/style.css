@@ -449,13 +449,14 @@ i.aarow{
 h3.ft-title{
 	font-size:1em;
 	text-transform:uppercase;
-	color:#303030;
+	color: #6D1419;
 	margin-bottom:1em;
 	font-weight:600;
 	letter-spacing: 1px;
+	text-align: center;
 }
 .footer-col{
-	border-right: 1px solid rgba(48, 48, 48, 0.33);
+	/*border-right: 1px solid rgba(48, 48, 48, 0.33);*/
 	min-height:174px;
 }
 ul.ft-list{
@@ -463,11 +464,13 @@ ul.ft-list{
 }
 ul.ft-list li{
 	display:block;
+	text-align: center;
 }
 ul.ft-list li a{
 	font-size:0.85em;
 	color:#303030;
 	font-weight:400;
+	text-align: center;
 }
 ul.ft-list li a:hover {
 	color: red;
@@ -504,6 +507,7 @@ ul.list-h li a:hover{
 }
 ul.social{
 	padding:0;
+	text-align: center;
 }
 ul.social li{
 	display: inline-block;
@@ -543,6 +547,7 @@ ul.social li i.is:hover{
 /*-- Men Page Starts Here --*/
 .pag-nav{
 	padding:1em 0;
+	display: none;
 }
 ul.p-list{
 	padding:0;
@@ -581,7 +586,7 @@ h3.c-head{
 	font-size:26px;
 	text-transform:uppercase;
 	color: #6D1419;
-	font-weight:600;
+	font-weight:300;
 	margin:0;
 }
 .coats small a{
@@ -603,8 +608,9 @@ h3.c-head{
 }
 .coat-column{
 	width:22%;
+	height: ;
 	float:left;
-	margin-right:4%;
+	margin-right:0%;
 	position:relative;
 }
 .coat-column1{
@@ -676,10 +682,12 @@ h3.c-head{
 }
 .look h3{
 	font-size:1.5em;
-	font-weight:400;
-	font-family: Georgia;
-	color:#606060;
+	font-weight:300;
+	font-family: Arial;
+	color: #6D1419;
 	font-style: italic;
+	font-family: Arial;
+	text-transform: uppercase;
 }
 /*-- Men Page Ends Here --*/
 /*-- About Starts Here --*/
@@ -1248,7 +1256,7 @@ ul.size-list li a:hover{
 		
 	}
 	.footer-col {
-		border-bottom: 1px solid rgba(48, 48, 48, 0.33);
+		/*border-bottom: 1px solid rgba(48, 48, 48, 0.33);*/
 		min-height: 156px;
 		padding-bottom: 1em;
 		margin-bottom: 1em;
