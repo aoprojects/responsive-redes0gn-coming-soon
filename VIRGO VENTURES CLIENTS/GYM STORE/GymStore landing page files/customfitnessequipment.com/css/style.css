@@ -639,6 +639,7 @@ h3.c-head{
 .prod-desc {
 	margin-bottom: 20px;
 	text-align: center;
+	min-height: 55px;
 }
 .prod-desc .mask .info {
 	text-align:center;
