@@ -582,12 +582,19 @@ ul.p-list li a:hover{
 	margin-top:3em;
 	text-align:center;
 }
+.coats .row div {
+	margin-bottom: 10px;
+}
+.coats .row div img {
+	text-align: center;
+	margin: 0 auto;
+}
 h3.c-head{
 	font-size:26px;
 	text-transform:uppercase;
 	color: #6D1419;
 	font-weight:300;
-	margin:0;
+	margin-bottom:35px;
 }
 .coats small a{
 	font-size:1em;
@@ -629,8 +636,9 @@ h3.c-head{
 	margin-left: 5%;
 	position:relative;
 }
-.prod-desc{
+.prod-desc .mask .info {
 	text-align:center;
+	/*margin-bottom: 40px;*/
 }
 .prod-desc h4{
 	font-size:1em;
