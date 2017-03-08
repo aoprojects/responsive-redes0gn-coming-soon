@@ -28,6 +28,9 @@ a[href="#top"] {
 	margin: 0 auto;
 	padding: 20px;
 }
+.foot-cl {
+	display: none;
+}/* hide social media section since Gym Store doesn't use it */
 /*end classes added by Virgo Ventures LLC*/
 
 h4, h5, h6,
