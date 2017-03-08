@@ -32,6 +32,26 @@ a[href="#top"] {
 .foot-cl {
 	display: none;
 }/* hide social media section since Gym Store doesn't use it */
+@media only screen and (max-width: 767px) {
+	.contact-box {
+		/*margin: 0px !important;*/
+		width: 100%;
+	}
+	.contact-box div.form {
+		width: 100% !important;
+	}
+	.contact-box form {
+
+	}
+	.form-y {
+		width: 100%;
+		display: block;
+	}
+	.form-t {
+		width: 100%;
+		display: block;		
+	}
+}
 /*end classes added by Virgo Ventures LLC*/
 
 h4, h5, h6,
@@ -947,15 +967,21 @@ ul.tab_list li a:hover {
 .form {
 	margin: 0em 0 2em;
 }
-.form-t {
-	float: left;
-	width: 49%;
-	margin-bottom:2em;
-}
-.form-y{
-	float:right;
-	width:49%;
-	margin-bottom:2em;
+@media only screen and (min-width: 992px) {
+	.form-t {
+		float: left;
+		width: 49%;
+		margin-bottom:2em;
+	}
+	.form-y{
+		float:right;
+		width:49%;
+		margin-bottom:2em;
+	}
+	.contact-box {
+		margin: 0;
+		width: 100%;
+	}
 }
 .text input[type="text"], .text input[type="password"]{
 	width:100%;
@@ -1245,7 +1271,7 @@ ul.size-list li a:hover{
 		width: 79.381%;
 	}
 }
-@media (max-width:768px){
+@media (max-width:768px) {
 	span.menu{
 		width:32px;
 		height:32px;
@@ -1438,7 +1464,7 @@ ul.size-list li a:hover{
 		margin-right:3%;
 	}
 	.contact-box {
-		width: 75%;
+		width: 100%;
 	}
 }
 @media (max-width:480px){
