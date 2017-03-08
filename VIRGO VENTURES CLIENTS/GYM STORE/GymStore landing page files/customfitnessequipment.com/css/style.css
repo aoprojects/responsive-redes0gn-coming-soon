@@ -1253,6 +1253,9 @@ ul.size-list li a:hover{
 		display:block;
 		float:right;
 		cursor: pointer;
+		position: fixed;
+		top: 15px;
+		right: 15px;
 	}
 	.navig{
 		float:none;
