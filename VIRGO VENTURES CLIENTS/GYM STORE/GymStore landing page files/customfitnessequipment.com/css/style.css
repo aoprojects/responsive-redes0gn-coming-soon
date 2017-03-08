@@ -83,7 +83,7 @@ h4 {
 }
 .logo{
 	float:left;
-	width:15%
+	/*width:15;*/
 }
 .logo a{
 	text-decoration:none;
@@ -93,8 +93,8 @@ h4 {
 	font-size:24px;
 	color:#6D1419;
 	position: relative;
-	top: -43px;
-	left: -25px;
+	top: -10px;
+	left: -5px;
 }
 .navig{
 	/* [disabled]float: left; */
