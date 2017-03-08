@@ -1,5 +1,6 @@
 
 /*New classes added by Virgo Ventures LLC*/
+	/*background:#6D1419; dark red */
 a[href="#top"] {
 	text-align: right !important;
 	float: right;
@@ -803,7 +804,7 @@ p.article{
 	border-left:none;
 }
 .resp-tab-item{
-	color: #777;
+	color: #6D1419;
 	font-size: 0.8125em;
 	cursor: pointer;
 	padding: 12px 10px;
@@ -822,12 +823,12 @@ p.article{
 }
 .resp-tab-item:hover {
 	text-shadow: none;
-	color: #f68236;
+	color: red;
 }
 .resp-tab-active{
-	background: #ddd;
+	background: #6D1419;
 	text-shadow: none;
-	color:black;
+	color:white;
 }
 .resp-tabs-container {
 	padding: 0px;
@@ -848,14 +849,17 @@ h2.resp-accordion {
 	font-size:1em;
 	margin: 0px;
 	padding: 10px 15px;
-	background:#f77462;
+	background:#6D1419; /* dark red */
 	margin:10px 0;
-	color:#fff;
+	color:white;
+	border: 1px solid #6D1419;
 }
 h2.resp-accordion:hover{
-	background:#6CC5D9;
+	background:white;
 	text-shadow: none;
-	color: #FFF;
+	color: #6D1419;
+	border: 1px solid #6D1419;
+	transition: 0.2s ease-in;
 }
 @media only screen and (max-width:480px) {
 .sap_tabs{
