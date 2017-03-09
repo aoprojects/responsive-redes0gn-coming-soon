@@ -10,6 +10,14 @@ a[href="#top"] {
 .centered-cols {
 	margin: 0 auto;
 }
+h2.tagline {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #6D1419;
+	position: relative;
+	top: 30px;
+}
 .iframe-video-size {
 	/*height: 50vw;*/
 	max-height: 50vw;
@@ -32,6 +40,27 @@ a[href="#top"] {
 .foot-cl {
 	display: none;
 }/* hide social media section since Gym Store doesn't use it */
+
+.gallery p {
+	color: #6D1419;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.gallery small {
+	color: #6D1419;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+}
+@media only screen and (max-width: 400px) {
+	.gallery p {
+		font-size: 14px;
+	}
+}
+
+
 @media only screen and (max-width: 767px) {
 	.contact-box {
 		/*margin: 0px !important;*/
@@ -250,7 +279,7 @@ button.search:hover div.serch{
 /*-- Banner part Ends Here ---*/
 /*--- gallery Part Starts here ---*/
 .gallery{
-	min-height:800px;
+	/*min-height:800px;*/
 }
 .gallery-row{}
 .gallery-grid{
