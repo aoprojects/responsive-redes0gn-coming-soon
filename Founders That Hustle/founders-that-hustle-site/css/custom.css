@@ -1,5 +1,12 @@
 /* your styles go here */
 
+.behind-survey-message {
+	position: relative;
+	z-index: -1;
+	text-align: center;
+	top: 1600px;
+}
+
 .larger {
 	font-size: 60px;
 	position: relative;
