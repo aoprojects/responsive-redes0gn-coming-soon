@@ -1,1 +1,8 @@
 /* your styles go here */
+
+.larger {
+	font-size: 60px;
+	position: relative;
+	top: 30px;
+	left: -5px;
+}
