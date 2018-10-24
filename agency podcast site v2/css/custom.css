@@ -1,0 +1,15 @@
+/* your styles go here */
+
+@media only screen and (min-width: 768px) {
+	.intro-left-content {
+		position: relative;
+		top: 550px;
+	}	
+}
+@media only screen and (max-width: 767px) {
+	.intro-left-content {
+		position: relative;
+		top: 50px;
+	}	
+
+}
